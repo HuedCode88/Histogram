@@ -5,7 +5,7 @@ public class Histogram {
 		System.out.println("How many values are in dataset?");
 		int[] dataSet = new int[input.nextInt()];
 		
-		System.out.println("Enter "+dataSet.length+ "values.");
+		System.out.println("Enter "+dataSet.length+ " values.");
 			for(int i=0;i<dataSet.length;i++) {
 					dataSet[i]=input.nextInt(); 
 			}
